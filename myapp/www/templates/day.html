@@ -1,0 +1,15 @@
+<ion-view view-title="Day" class="daysListView">
+    <ion-content>
+        <div class="list list-inset no-margin" ng-repeat="competition in dayInfo.competitions">
+            <div class="item daysList" style="background: #4169E1;">
+                <p class="event-time">
+                    {{competition.startingTime.substring(0,5)}}
+                </p>
+                <div style="float: left;">
+                    <h2 style="color: lightgreen;">{{competition.name}}</h2>
+                    <p style="color: black;">{{competition.description}}</p>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

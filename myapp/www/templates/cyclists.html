@@ -1,0 +1,25 @@
+<ion-view view-title="Cyclists" class="listView">
+    <ion-content>
+        <div class="list">
+            <div class="item item-input-inset" style="background: #336600;">
+                <label class="item-input-wrapper" style="background: #6EF300;">
+                    <i class="icon ion-search placeholder-icon"></i>
+                    <input ng-model="cyclistInfo.search" type="text" placeholder="Cyclist name">
+                </label>
+            </div>
+            <div class="internetConnection" ng-show="noInternetConnection">
+                There is no internet connection.
+            </div>
+            <ion-list>
+                <ion-item class="cyclistList" ng-repeat="cyclist in cyclists | filter:search" href="#/app/cyclist/{{cyclist.cyclistId}}">
+                    <div class="profilePictureCyclists">
+                        <img src="{{cyclist.photo}}" alt="profile photo">
+                    </div>
+                    <div class="cyclistName">
+                        {{cyclist.firstName}} {{cyclist.lastName}}
+                    </div>
+                </ion-item>
+        </div>
+        </ion-list>
+    </ion-content>
+</ion-view>

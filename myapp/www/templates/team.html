@@ -1,0 +1,31 @@
+<ion-view view-title="Team">
+    <ion-content class="details">
+        <div class="list card">
+            <div class="item text-center header">
+                <h2 style="font-weight: bold;">{{teamInfo.name}}<h2>
+                {{'Ranked ' + teamInfo.ranking + ': '}} <span style="font-weight: bold;">{{teamInfo.laps}}</span> laps
+            </div>
+            <div class="item">
+                <div class="center">
+                    <img class="full-image team-avatar" ng-src="{{teamInfo.outfitPicture}}" alt="team outfit">
+                </div>
+                <div class="row">
+                    <div class="col card text-center black-number">
+                        <div class="item">
+                            <p>{{teamInfo.cyclistBlackNumber.firstName}}</p>
+                            <img class="full-image team-avatar" ng-src="{{teamInfo.cyclistBlackNumber.photo}}" alt="team outfit">
+                            <p>{{teamInfo.cyclistBlackNumber.lastName}}</p>
+                        </div>
+                    </div>
+                    <div class="col card text-center">
+                        <div class="item">
+                            <p>{{teamInfo.cyclistWhiteNumber.firstName}}</p>
+                            <img class="full-image team-avatar" ng-src="{{teamInfo.cyclistWhiteNumber.photo}}" alt="team outfit">
+                            <p>{{teamInfo.cyclistWhiteNumber.lastName}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,179 @@
+/* Empty. Add your own CSS if you like */
+.no-margin {
+    margin: 0px !important;
+}
+
+.float-left {
+    float: left;
+}
+
+.event-time {
+    float: right;
+    font-weight: bold;
+    color: #000080 !important;
+}
+
+.team-avatar {
+    border-radius: 50%;
+}
+
+.header {
+    background: #57AD00
+}
+
+.details {
+    background: #000080;
+}
+
+.center {
+    width: 60%;
+    margin: auto;
+}
+
+.black-number {
+    background: black;
+    color: #0066FF;
+}
+
+
+.profilePictureCyclists {
+                float:left;
+                border-radius: 50%;
+                overflow: hidden;
+                width: 50px;
+                height: 50px;
+            }
+.profilePictureCyclists img {
+                display: block;
+                width: 50px;
+                min-height: 100%;
+            }
+.cyclistName{
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: bold;
+    color: #285800;
+   
+}
+.item .item-content {
+  background-color: transparent !important;
+}
+.cyclistList{
+    background: #57AD00;
+    border-color: #1B3C00;
+}
+.listView{
+    background: #1B3C00;
+}
+.searchText{
+    text-align: center;
+    color: #57AD00;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.searchField{
+    width: 100%;
+    background-color: #6EF300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+    text-align: center;
+}
+.teamRanking{
+    float:left;
+    line-height: 60px;
+    font-size: 35px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    vertical-align: middle;
+    width: 70px;
+    border:2px ridge green;
+    border-left-style: none;
+    border-top-style: none;
+    border-bottom-style: none;
+    color: #000;
+}
+.teamName{
+    width: 100%;
+    line-height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+    margin-left: 20px;
+    color: #222;
+}
+.teamLaps{
+    float:right;
+    line-height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+}
+.teamId{
+    float: left;
+    line-height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 15px;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+    
+}
+.dayName{
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+    color: #111;
+}
+.dayDate{
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+    color: #333;
+    margin-top: 10px;
+}
+.teamsList{
+    background: #4169E1;
+    border-color: #000080;
+}
+.teamsSearchField{
+    text-align: center;
+    background: #006400;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+    width:100%;
+}
+.teamListView{
+    background: #000030;
+}
+.daysList{
+    background: #4169E1;
+    border-color: #000080;
+}
+.daysListView{
+     background: #000030;
+}
+
+.internetConnection{
+    color: #FFF;
+    line-height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menu-item {
+    background: green;
+    border-color: blue;
+    color: black;
+}

@@ -1,0 +1,30 @@
+<ion-view view-title="Teams" class="teamListView">
+    <ion-content>
+        <div class="item item-input-inset" style="background: #1B3C00;">
+            <label class="item-input-wrapper" style="background: #000080;">
+                <i class="icon ion-search placeholder-icon"></i>
+                <input class="searchField" ng-model="teamInfo.search" type="text" placeholder="Team name">
+            </label>
+        </div>
+        <div class="internetConnection" ng-show="noInternetConnection">
+            There is no internet connection.
+        </div>
+        <ion-list>
+            <ion-item class="teamsList" ng-repeat="team in teams | filter:search" href="#/app/team/{{team.id}}">
+                <div class="teamRanking">
+                    {{team.ranking}}
+                </div>
+
+                <div class="teamName">
+                    {{team.name}}
+                </div>
+                <div class="teamId">
+                    Team №: {{team.id}}
+                </div>
+                <div class="teamLaps">
+                    Laps: {{team.laps}}
+                </div>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

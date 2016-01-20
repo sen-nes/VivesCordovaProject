@@ -1,0 +1,17 @@
+<ion-view view-title="Cyclist">
+    <ion-content class="details">
+        <div class="list card">
+            <div class="item item-avatar text-center header">
+                <img ng-src="{{cyclist.team.outfitPicture}}">
+                <h2 style="font-weight: bold;">{{cyclist.team.name}}</h2>
+            </div>
+            <div class="item item-image">
+                <img ng-src="{{cyclist.photo}}" style="width: 75%">
+            </div>
+            <div class="item item-divider text-center header">
+                <h2 style="font-weight: bold;">{{cyclist.firstName + " " + cyclist.lastName}}</h2>
+                {{cyclist.dateOfBirth | date:"MM-dd-yyyy" + ", "}} {{cyclist.countryName}}
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

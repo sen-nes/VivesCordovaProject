@@ -1,0 +1,11 @@
+http://cyclingcompetition.azurewebsites.net/api/cyclists
+
+http://cyclingcompetition.azurewebsites.net/api/cyclists/{id}
+
+http://cyclingcompetition.azurewebsites.net/api/teams
+
+http://cyclingcompetition.azurewebsites.net/api/teams/{id}
+
+http://cyclingcompetition.azurewebsites.net/api/program/days
+
+http://cyclingcompetition.azurewebsites.net/api/program/days/1

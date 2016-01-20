@@ -1,0 +1,17 @@
+<ion-view view-title="Days" class="daysListView">
+    <ion-content>
+        <div class="internetConnection" ng-show="noInternetConnection">
+            There is no internet connection.
+        </div>
+        <ion-list>
+            <ion-item class="daysList" ng-repeat="day in days" href="#/app/day/{{day.id}}">
+                <div class="dayName">
+                    {{day.description}}
+                </div>
+                <div class="dayDate">
+                    {{day.date | date: "dd/MM/yyyy"}}
+                </div>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>
